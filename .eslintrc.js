@@ -13,6 +13,8 @@ module.exports = {
     'no-return-assign': 'off',
     'arrow-parens': 'off',
     'no-param-reassign': 'warn',
+    'class-methods-use-this': 'warn',
+    'no-underscore-dangle': 'warn',
   },
   parserOptions: {
     parser: 'babel-eslint',
