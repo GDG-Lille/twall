@@ -27,11 +27,11 @@
 </template>
 
 <script>
-import AppLoading from '@/components/app-loading/AppLoading';
-import AppMessage from '@/components/app-message/AppMessage';
+import AppLoading from '@/components/app-loading/AppLoading.vue';
+import AppMessage from '@/components/app-message/AppMessage.vue';
 import TalksService from '@/services/TalksService';
 import moment from 'moment';
-import Talk from './components/Talk';
+import Talk from './components/Talk.vue';
 
 export default {
   name: 'Talks',

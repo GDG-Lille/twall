@@ -1,7 +1,7 @@
 import moment from 'moment';
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
-import fr from './fr.js';
+import fr from './fr';
 
 Vue.use(VueI18n);
 

@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import InterConf from './views/inter-conf/InterConf';
-import Talks from './views/talks/Talks';
-import Tweets from './views/tweets/Tweets';
+import InterConf from './views/inter-conf/InterConf.vue';
+import Talks from './views/talks/Talks.vue';
+import Tweets from './views/tweets/Tweets.vue';
 
 Vue.use(Router);
 

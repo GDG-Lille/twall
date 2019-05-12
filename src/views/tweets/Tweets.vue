@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import AppLive from '@/components/app-live/AppLive';
-import AppLoading from '@/components/app-loading/AppLoading';
-import AppMessage from '@/components/app-message/AppMessage';
+import AppLive from '@/components/app-live/AppLive.vue';
+import AppLoading from '@/components/app-loading/AppLoading.vue';
+import AppMessage from '@/components/app-message/AppMessage.vue';
 import TweetsService from '@/services/TweetsService';
-import Tweet from './components/Tweet';
+import Tweet from './components/Tweet.vue';
 
 export default {
   name: 'Tweets',
