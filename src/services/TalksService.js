@@ -14,7 +14,7 @@ class TalksService {
       .get('/findAllActiveTalks', { params })
       .then(res => res.data)
       .then(talks => {
-        Object.values(talks).forEach(talk => talk.hour = new Date(talk.hour.seconds * 1000));
+        Object.values(talks).forEach(talk => talk.hour = new Date(talk.hour._seconds * 1000));
         return talks;
       });
   }
